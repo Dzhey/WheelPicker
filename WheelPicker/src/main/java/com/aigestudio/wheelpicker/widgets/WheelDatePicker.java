@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 import com.aigestudio.wheelpicker.IDebug;
 import com.aigestudio.wheelpicker.IWheelPicker;
-import com.aigestudio.wheelpicker.R;
+import com.github.dzhey.wheelpicker.R;
 import com.aigestudio.wheelpicker.WheelPicker;
 
 import java.text.ParseException;

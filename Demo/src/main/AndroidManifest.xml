@@ -4,10 +4,12 @@
     <application
         android:icon="@mipmap/ic_launcher"
         android:label="WheelPickerDemo"
-        android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+        android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"
+        android:allowBackup="false">
         <activity
             android:name=".PreviewActivity"
-            android:screenOrientation="landscape">
+            android:screenOrientation="landscape"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />

@@ -20,7 +20,8 @@ import android.view.View;
 import android.view.ViewConfiguration;
 import android.widget.Scroller;
 
-import java.util.ArrayList;
+import com.github.dzhey.wheelpicker.R;
+
 import java.util.Arrays;
 import java.util.List;
 
