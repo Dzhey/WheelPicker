@@ -26,14 +26,7 @@ afterEvaluate {
             release(MavenPublication) {
                 from components.release
                 groupId = 'com.github.WheelPicker'
-                artifactId = 'final'
-                version = '1.0'
-            }
-            debug(MavenPublication) {
-                from components.debug
-
-                groupId = 'com.github.WheelPicker'
-                artifactId = 'final-debug'
+                artifactId = 'WheelPicker'
                 version = '1.0'
             }
         }
